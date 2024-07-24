@@ -34,7 +34,7 @@ int main() {
 			if (nxt > 100'000 || nxt < 0) continue;
 			if (dist[nxt] != -1)
 			{
-				if(dist[nxt] == dist[cur] + 1)
+				if (dist[nxt] == dist[cur] + 1)
 					cnt[nxt] += cnt[cur];
 			}
 			else {
