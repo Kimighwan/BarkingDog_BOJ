@@ -117,5 +117,14 @@
     <ClCompile Include="2573BOJ_빙산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2146BOJ_다리 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2146BOJ_다리 만들기_ 별해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12851BOJ_숨바꼭질2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
