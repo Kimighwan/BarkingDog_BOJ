@@ -111,6 +111,9 @@
     <ClCompile Include="9466BOJ_텀프로젝트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2573BOJ_빙산_미해결%28시간초과%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="2573BOJ_빙산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
