@@ -135,5 +135,8 @@
     <ClCompile Include="1600BOJ_말이 되고픈 원숭이_미해결.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13913BOJ_숨바꼭질 4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
