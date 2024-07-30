@@ -138,5 +138,11 @@
     <ClCompile Include="13913BOJ_숨바꼭질 4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14442BOJ_벽 부수고 이동하기 2_미해결.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16933BOJ_벽 부수고 이동하기 3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
