@@ -150,5 +150,11 @@
     <ClCompile Include="11967BOJ_불켜기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17071BOJ_숨바꼭질 5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9328BOJ_열쇠_미해결.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
