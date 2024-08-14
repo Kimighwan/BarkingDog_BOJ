@@ -156,5 +156,8 @@
     <ClCompile Include="9328BOJ_열쇠_미해결.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3197BOJ_백조의 호수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
