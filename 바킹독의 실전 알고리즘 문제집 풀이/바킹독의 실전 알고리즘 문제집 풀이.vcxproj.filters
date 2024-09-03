@@ -159,5 +159,11 @@
     <ClCompile Include="3197BOJ_백조의 호수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="20304BOJ_비밀번호 제작.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1629BOJ_곱셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
