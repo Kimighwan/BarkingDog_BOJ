@@ -189,5 +189,8 @@
     <ClCompile Include="2448BOJ_별 찍기 - 11.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14956BOJ_Philosopher’s Walk_미해결.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
