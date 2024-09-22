@@ -192,5 +192,23 @@
     <ClCompile Include="14956BOJ_Philosopher’s Walk_미해결.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1182 BOJ_부분수열의 합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15649BOJ_N과 M (1).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15650BOJ_N과 M (2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15651BOJ_N과 M (3).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9663BOJ_N-Queen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15652BOJ_N과 M (4).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
