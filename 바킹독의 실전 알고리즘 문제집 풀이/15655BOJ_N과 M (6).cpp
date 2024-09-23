@@ -8,7 +8,8 @@ int ans[10];
 bool isUsed[10];
 
 void Solve(int cur) {
-	if (cur == m) {
+	if (cur == m)
+	{
 		for (int i = 0; i < m; i++)
 			cout << arr[ans[i]] << ' ';
 		cout << '\n';
@@ -16,8 +17,8 @@ void Solve(int cur) {
 	}
 
 	int start = 0;
-	if (cur != 0) start = arr[cur - 1] + 1;   
-	for (int i = start; i <= n; i++)
+	if (cur != 0) start = ans[cur - 1] + 1;
+	for (int i = start; i < n; i++)
 	{
 		if (!isUsed[i])
 		{
