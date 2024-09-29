@@ -219,7 +219,10 @@
     <ClCompile Include="15656BOJ_N과 M (7).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1941BOJ_소문난 칠공주.cpp">
+    <ClCompile Include="1941BOJ_소문난 칠공주_어렵.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16987BOJ_계란으로 계란치기_노이해.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
