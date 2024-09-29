@@ -12,7 +12,7 @@ void Solve(int index) // index 번째 계란으로 깰 차례
 		return;
 	}
 
-	if (s[index] <= 0 || cnt == n - 1) {
+	if (s[index] <= 0 || cnt == n -1) {
 		Solve(index + 1);
 		return;
 	}
@@ -27,7 +27,7 @@ void Solve(int index) // index 번째 계란으로 깰 차례
 		if (s[index] <= 0) cnt--;
 		if (s[i] <= 0) cnt--;
 		s[i] += w[index];
-		s[index] += w[index];
+		s[index] += w[i];
 	}
 }
 
