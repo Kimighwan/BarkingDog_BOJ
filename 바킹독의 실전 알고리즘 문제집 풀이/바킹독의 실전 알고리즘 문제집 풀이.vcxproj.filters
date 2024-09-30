@@ -225,5 +225,8 @@
     <ClCompile Include="16987BOJ_계란으로 계란치기_노이해.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11728BOJ_배열 합치기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
