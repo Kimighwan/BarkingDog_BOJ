@@ -231,5 +231,8 @@
     <ClCompile Include="15688BOJ_수 정렬하기 5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11652BOJ_카드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
