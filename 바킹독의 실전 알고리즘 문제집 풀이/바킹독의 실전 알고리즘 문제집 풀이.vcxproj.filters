@@ -237,5 +237,8 @@
     <ClCompile Include="2750BOJ_수 정렬하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1431BOJ_시리얼 번호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
