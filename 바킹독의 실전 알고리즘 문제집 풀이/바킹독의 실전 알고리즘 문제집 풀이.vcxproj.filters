@@ -246,5 +246,8 @@
     <ClCompile Include="1181BOJ_단어 정렬.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2910BOJ_빈도 정렬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
