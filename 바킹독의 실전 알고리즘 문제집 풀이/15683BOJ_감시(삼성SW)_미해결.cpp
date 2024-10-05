@@ -3,10 +3,10 @@
 using namespace std;
 
 int n, m, map[10][10];
-int dx[4] = { 1,0,-1,0 };
-int dy[4] = { 0,1,0,-1 }; // 남쪽, 동쪽, 북쪽, 서쪽 순서
+int dx[4] = { 0, -1, 0, 1 }; // 우, 상, 좌, 하
+int dy[4] = { 1, 0, -1, 0 };
 vector<pair<int, int>> cctvPos;
-int ans = 100;
+int ans = 100000;
 
 void Sol(int x, int y, int dir) {
 	dir %= 4;
@@ -16,7 +16,7 @@ void Sol(int x, int y, int dir) {
 		x = nx;
 		y = ny;
 		if (nx < 0 || ny < 0 || nx >= n || ny >= m) return;
-		if (map[nx][ny] == '6') return;
+		if (map[nx][ny] == 6) return;
 		if (map[nx][ny] != 0) continue;
 		map[nx][ny] == -1;
 	}
@@ -28,7 +28,7 @@ void DFS(int idx) {
 		int cnt = 0;
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
-				if (map[i][j] == -1) cnt++;
+				if (!map[i][j]) cnt++;
 			}
 		}
 
@@ -64,20 +64,20 @@ void DFS(int idx) {
 			Sol(x, y, dir + 1);
 			Sol(x, y, dir + 2);
 		}
-		else if (map[x][y] == 4)
+		else if (map[x][y] == 5)
 		{
 			Sol(x, y, dir);
 			Sol(x, y, dir + 1);
 			Sol(x, y, dir + 2);
 			Sol(x, y, dir + 3);
 		}
+
+		DFS(idx + 1);
+
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < m; j++)
+				map[i][j] = tmp[i][j];
 	}
-
-	DFS(idx + 1);
-
-	for (int i = 0; i < n; i++)
-		for (int j = 0; j < m; j++)
-			map[i][j] = tmp[i][j];
 }
 
 int main() {
@@ -88,9 +88,10 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			cin >> map[i][j];
-			if (map[i][j] != '6' && map[i][j] != '0') cctvPos.push_back({ i, j });
+			if (map[i][j] != 6 && map[i][j] != 0) cctvPos.push_back({ i, j });
 		}
 	}
 
 	DFS(0);
+	cout << ans << '\n';
 }

@@ -1,45 +1,94 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
-int n, mx = 0;
-int s[10], w[10];
-int cnt = 0; // 현재 깨진 계란 수
+int n, m;
+int dx[4] = { 0, 1, 0, -1 };
+int dy[4] = { 1 , 0, -1, 0 };
+int map[10][10];
+vector<pair<int, int>> cctv;
+int ans = 100000;
 
-void Solve(int index) // index 번째 계란으로 깰 차례
-{
-	if (index == n) {
-		mx = max(mx, cnt);
-		return;
-	}
-
-	if (s[index] <= 0 || cnt == n -1) {
-		Solve(index + 1);
-		return;
-	}
-
-	for (int i = 0; i < n; i++) {
-		if (index == i || s[i] <= 0) continue;
-		s[index] -= w[i];
-		s[i] -= w[index];
-		if (s[index] <= 0) cnt++;
-		if (s[i] <= 0) cnt++;
-		Solve(index + 1);
-		if (s[index] <= 0) cnt--;
-		if (s[i] <= 0) cnt--;
-		s[i] += w[index];
-		s[index] += w[i];
+void Solve(int x, int y, int dir) {
+	dir %= 4;
+	while (1) 
+	{
+		int nx = x + dx[dir];
+		int ny = y + dy[dir];
+		x = nx;
+		y = ny;
+		if (x < 0 || y < 0 || x >= n || y >= m) return;
+		if (map[x][y] == 6)	return;
+		if (map[x][y] != 0) continue;
+		map[x][y] = 7;
 	}
 }
 
+void DFS(int index) {
+	if (index == cctv.size()) 
+	{
+		int cnt = 0;
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < m; j++)
+				if (map[i][j] == 0) cnt++;
+		ans = min(ans, cnt);
+		return;
+	}
+
+	int x = cctv[index].first;
+	int y = cctv[index].second;
+
+	int tmp[10][10];
+
+	for (int dir = 0; dir < 4; dir++)
+	{
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < m; j++)
+				tmp[i][j] = map[i][j];
+
+		if (map[x][y] == 1)
+			Solve(x, y, dir);
+		else if (map[x][y] == 2) {
+			Solve(x, y, dir);
+			Solve(x, y, dir + 2);
+		}
+		else if (map[x][y] == 3) {
+			Solve(x, y, dir);
+			Solve(x, y, dir + 1);
+		}
+		else if (map[x][y] == 4) {
+			Solve(x, y, dir);
+			Solve(x, y, dir + 1);
+			Solve(x, y, dir + 2);
+		}
+		else if (map[x][y] == 5) {
+			Solve(x, y, dir);
+			Solve(x, y, dir + 1);
+			Solve(x, y, dir + 2);
+			Solve(x, y, dir + 3);
+		}
+		DFS(index + 1);
+
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < m; j++)
+				map[i][j] = tmp[i][j];
+	}
+}
+
+
 int main() {
 	ios_base::sync_with_stdio(0);
-	cin.tie();
+	cin.tie(0);
 
-	cin >> n;
-
+	cin >> n >> m;
 	for (int i = 0; i < n; i++)
-		cin >> s[i] >> w[i];
+		for (int j = 0; j < m; j++)
+		{
+			cin >> map[i][j];
+			if (map[i][j] != 0 && map[i][j] != 6) cctv.push_back({ i, j });
+		}
 
-	Solve(0);
-	cout << mx;
+	DFS(0);
+	cout << ans;
 }
