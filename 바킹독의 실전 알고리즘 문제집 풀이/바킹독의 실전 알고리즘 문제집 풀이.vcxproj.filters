@@ -252,7 +252,7 @@
     <ClCompile Include="7795BOJ_먹을 것인가 먹힐 것인가.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="15683BOJ_감시%28삼성SW%29_미해결.cpp">
+    <ClCompile Include="15683BOJ_감시.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
