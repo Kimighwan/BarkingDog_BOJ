@@ -255,5 +255,8 @@
     <ClCompile Include="15683BOJ_감시.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="18808BOJ_스티커 붙이기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
