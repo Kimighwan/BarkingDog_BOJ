@@ -276,5 +276,8 @@
     <ClCompile Include="2579BOJ_계단 오르기_뱔헤.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1149BOJ_RGB거리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
