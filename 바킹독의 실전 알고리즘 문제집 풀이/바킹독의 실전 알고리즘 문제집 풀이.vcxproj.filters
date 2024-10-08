@@ -279,5 +279,8 @@
     <ClCompile Include="1149BOJ_RGB거리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11726BOJ_2×n 타일링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
