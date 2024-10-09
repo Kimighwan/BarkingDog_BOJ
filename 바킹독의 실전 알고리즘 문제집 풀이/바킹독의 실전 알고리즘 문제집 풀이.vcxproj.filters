@@ -285,5 +285,8 @@
     <ClCompile Include="11659BOJ_구간 합 구하기 4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12852BOJ_1로 만들기 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
