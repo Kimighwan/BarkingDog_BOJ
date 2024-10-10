@@ -288,5 +288,8 @@
     <ClCompile Include="12852BOJ_1로 만들기 2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15663BOJ_N과 M (9).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
