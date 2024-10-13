@@ -1,9 +1,11 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <algorithm>
 using namespace std;
 
 int n;
-string str;
+string x;
 vector<long long> v;
 
 int main() {
@@ -12,6 +14,12 @@ int main() {
 
 	cin >> n;
 	for (int i = 0; i < n; i++) {
-		cin >> str
+		cin >> x;
+		reverse(x.begin(), x.end());
+		v.push_back(stoll(x));
 	}
+
+	sort(v.begin(), v.end());
+	for (auto i : v) cout << i << '\n';
+	return 0;
 }
