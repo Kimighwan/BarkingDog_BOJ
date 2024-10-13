@@ -318,5 +318,8 @@
     <ClCompile Include="1003BOJ_피보나치 함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15665BOJ_N과 M (11).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
