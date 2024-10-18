@@ -324,5 +324,11 @@
     <ClCompile Include="14891BOJ_톱니바퀴.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11653BOJ_소인수분해.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="30445BOJ_행복 점수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
