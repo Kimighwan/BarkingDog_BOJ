@@ -333,5 +333,8 @@
     <ClCompile Include="11050BOJ_이항계수 1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11051BOJ_이항 계수 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
