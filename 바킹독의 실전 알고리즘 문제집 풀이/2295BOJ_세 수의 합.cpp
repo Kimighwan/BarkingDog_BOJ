@@ -14,7 +14,7 @@ int main() {
 	for (int i = 0; i < n; i++)
 		cin >> arr[i];
 
-	sort(arr, arr + n);
+	sort(arr, arr + n); // 정렬할 필요는 없지만 발견하자 마자 바로 끝낼 수 있음
 
 	for (int i = 0; i < n; i++)
 		for (int j = 0; j < n; j++)

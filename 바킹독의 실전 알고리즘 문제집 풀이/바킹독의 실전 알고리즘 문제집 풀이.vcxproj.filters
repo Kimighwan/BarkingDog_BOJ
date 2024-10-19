@@ -348,5 +348,8 @@
     <ClCompile Include="2295BOJ_세 수의 합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="654BOJ_랜선자르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
