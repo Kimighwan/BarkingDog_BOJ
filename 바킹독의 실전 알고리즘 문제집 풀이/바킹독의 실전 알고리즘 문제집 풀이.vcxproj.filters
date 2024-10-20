@@ -354,5 +354,8 @@
     <ClCompile Include="2230BOJ_수 고르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="7785BOJ_회사에 있는 사람.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
