@@ -369,5 +369,8 @@
     <ClCompile Include="15666BOJ_N 과 M (12).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1715BOJ_카드 정렬하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
