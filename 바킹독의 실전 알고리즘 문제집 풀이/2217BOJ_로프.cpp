@@ -10,6 +10,20 @@ int main() {
 	cin.tie(0);
 
 	cin >> n;
+
+	for (int i = 0; i < n; i++) {
+		cin >> w[i];
+	}
+
+	for (int i = 1; i <= n; i++)
+	{
+		total = max(total, w[n - i] * i);
+	}
+
+	cout << total;
+
+
+	/*cin >> n;
 	for (int i = 1; i <= n; i++)
 		cin >> w[i];
 
@@ -19,5 +33,5 @@ int main() {
 		total = max(total, k * w[k]);
 	}
 
-	cout << total;
+	cout << total;*/
 }
