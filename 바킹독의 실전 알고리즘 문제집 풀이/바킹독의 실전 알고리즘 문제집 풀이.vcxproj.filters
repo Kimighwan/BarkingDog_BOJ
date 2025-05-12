@@ -402,5 +402,8 @@
     <ClCompile Include="BOJ2847_게임을 만든 동준이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ1439_뒤집기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
