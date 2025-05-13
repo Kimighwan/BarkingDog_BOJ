@@ -408,5 +408,8 @@
     <ClCompile Include="BOJ1978_소수 찾기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ1929_소수 구하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
