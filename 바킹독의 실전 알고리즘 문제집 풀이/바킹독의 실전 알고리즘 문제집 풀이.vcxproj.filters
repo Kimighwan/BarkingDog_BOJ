@@ -414,5 +414,8 @@
     <ClCompile Include="BOJ15894_수학은 체육과목 입니다.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ4796_캠핑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
