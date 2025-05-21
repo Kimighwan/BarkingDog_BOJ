@@ -417,5 +417,8 @@
     <ClCompile Include="BOJ4796_캠핑.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ2960_에라토스테네스의 체.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
