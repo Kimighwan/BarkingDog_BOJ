@@ -420,5 +420,8 @@
     <ClCompile Include="BOJ2960_에라토스테네스의 체.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ1193_분수찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
