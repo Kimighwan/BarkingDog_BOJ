@@ -438,5 +438,8 @@
     <ClCompile Include="BOJJ10093_숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ1267_핸드폰 요금.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
