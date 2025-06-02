@@ -456,5 +456,8 @@
     <ClCompile Include="BOJ10807_개수 세기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ13300_방 배정.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
