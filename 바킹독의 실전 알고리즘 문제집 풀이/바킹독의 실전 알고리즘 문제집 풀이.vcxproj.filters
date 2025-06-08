@@ -465,5 +465,8 @@
     <ClCompile Include="BOJ1919_애너그램 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ5397_키로거.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
