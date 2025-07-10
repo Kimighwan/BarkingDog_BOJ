@@ -492,5 +492,8 @@
     <ClCompile Include="BOJ2164_카드2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ1021_회전하는 큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
