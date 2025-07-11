@@ -1,40 +1,42 @@
 #include <iostream>
 #include <deque>
+#include <algorithm>
 using namespace std;
 
 int n, m;
 deque<int> Q;
 int result = 0, cnt = 0;
-int arr[51];
 
 int main() {
-	cin >> n >> m;
+	ios_base::sync_with_stdio(0);
+	cin.tie(0);
 
-	for (int i = 0; i < m; i++)
-		cin >> arr[i];
+	cin >> n >> m;
 
 	for (int i = 1; i <= n; i++)
 		Q.push_back(i);
 
-	while (cnt != m)
+	while (m--)
 	{
-		if (Q.front() == arr[cnt])
+		int x; cin >> x;
+		int index = find(Q.begin(), Q.end(), x) - Q.begin();
+
+		while (Q.front() != x)
 		{
-			Q.pop_front();
-			cnt++;
-		}
-		else if (n / 2 >= Q[arr[cnt]])
-		{
-			Q.push_back(Q.front());
-			Q.pop_front();
+			if (((int)Q.size()) / 2 >= index)
+			{
+				Q.push_back(Q.front());
+				Q.pop_front();
+			}
+			else
+			{
+				Q.push_front(Q.back());
+				Q.pop_back();
+			}
 			result++;
 		}
-		else
-		{
-			Q.push_front(Q.back());
-			Q.pop_back();
-			result++;
-		}
+
+		Q.pop_front();
 	}
 
 	cout << result;
