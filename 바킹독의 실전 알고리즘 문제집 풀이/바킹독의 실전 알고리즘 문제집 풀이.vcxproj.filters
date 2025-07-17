@@ -501,5 +501,8 @@
     <ClCompile Include="BOJ4949_균형잡힌 세상.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ3986_좋은 단어.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
